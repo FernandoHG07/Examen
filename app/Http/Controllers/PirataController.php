@@ -20,10 +20,11 @@ class PirataController extends Controller
     public function pirata(){
         $piratas = Pirata::all();
 
-        $datos = new apisController;
+        $datos = new apisController();
         $llamar = $datos->pirate();
 
-        return view('pirata',['piratas'=>$piratas, 'pirate'=>$llamar]);
+        return view('pirata',['piratas'=>$piratas, 'llamar'=>$llamar]);
     }
+
 
 }

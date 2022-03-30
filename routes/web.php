@@ -25,3 +25,5 @@ Route::get('/contac', [direccionesController::class, 'contact'])->name('contact'
 Route::get('/piratas', [PirataController::class, 'index'])->name('piratas');
 
 Route::get('/pirata', [PirataController::class, 'pirata'])->name('pirata');
+
+Route::get('/hola', [PirataController::class, 'pirata'])->name('pirata');

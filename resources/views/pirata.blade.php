@@ -27,6 +27,8 @@
         @endforeach
 
         <h2>Datos Extra:</h2>
+
+        
        </div>
       </div>
     </div>

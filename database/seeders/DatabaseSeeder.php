@@ -17,6 +17,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $this->call(categoriaSeeder::class);
+        $this->call(blogSeeder::class);
         $this->call(pirataSeeder::class);
     }
 }
