@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\direccionesController;
-use App\Http\Controllers\pirataController;
+use App\Http\Controllers\PirataController;
 use App\Http\Controllers\PiratSolController;
 
 /*
